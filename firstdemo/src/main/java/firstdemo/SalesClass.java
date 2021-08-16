@@ -7,5 +7,8 @@ public class SalesClass {
 		for(int num:arr)
 			System.out.println(num);
 	}
-
+	public void print() {
+		System.out.println("Print all array elements");
+		display();
+	}
 }
